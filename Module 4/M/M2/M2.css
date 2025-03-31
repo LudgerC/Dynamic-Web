@@ -1,0 +1,45 @@
+/* Algemene stijl voor de body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Stijl voor de div met rekeninginformatie */
+#accounts {
+    background-color: #acacac;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stijl voor de transacties */
+#transactions {
+    background-color: #acacac;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stijl voor de transactie lijst */
+#transactions ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#transactions li {
+    background-color: #acacac;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Stijl voor de rekeningoverzicht tekst */
+#accounts p {
+    font-size: 16px;
+    margin: 10px 0;
+}

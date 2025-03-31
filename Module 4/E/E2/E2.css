@@ -1,0 +1,51 @@
+/* Algemene styling voor de body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Plaatst de inhoud naar links */
+    align-items: flex-start; /* Plaatst de inhoud bovenaan */
+    height: 100vh; /* Vul het volledige scherm */
+    color: #333;
+}
+
+/* Styling voor de container die de tabel omhult */
+#output {
+    background-color: #d3d3d3; /* Lichte grijze achtergrondkleur */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%; /* Tabel zal niet te breed zijn */
+    overflow-x: auto;
+    margin-top: 20px; /* Zorgt voor ruimte boven het kader */
+}
+
+/* Styling voor de tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Styling voor de hoofdtitel */
+h2 {
+    text-align: center;
+    color: #333;
+}

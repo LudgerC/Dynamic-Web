@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Cursusplatform</title>
+    <link rel="stylesheet" href="H1.css">
+</head>
+<body>
+    <h1>Online Cursusplatform</h1>
+    
+    <div class="tabs">
+        <button class="tab" data-tab="courses">Cursussen</button>
+        <button class="tab" data-tab="students">Studenten</button>
+        <button class="tab" data-tab="teachers">Docenten</button>
+        <button class="tab" data-tab="enrollments">Inschrijvingen</button>
+    </div>
+
+    <div class="tab-content" id="courses">
+        <h2>Beschikbare Cursussen</h2>
+        <div id="course-list"></div>
+    </div>
+
+    <div class="tab-content" id="students">
+        <h2>Studenten</h2>
+        <div id="student-list"></div>
+    </div>
+
+    <div class="tab-content" id="teachers">
+        <h2>Docenten</h2>
+        <div id="teacher-list"></div>
+    </div>
+
+    <div class="tab-content" id="enrollments">
+        <h2>Inschrijvingen</h2>
+        <div id="enrollment-list"></div>
+    </div>
+
+    <script src="H1.mjs"></script>
+</body>
+</html>

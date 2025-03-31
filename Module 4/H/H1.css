@@ -1,0 +1,60 @@
+/* Algemene stijl voor de body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Stijl voor de header */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Tabs stijl */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #acacac;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Stijl voor de tab content */
+.tab-content {
+    display: none;
+    background-color: #acacac;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stijl voor de cursus-, studenten-, docent- en inschrijving lijsten */
+#course-list, #student-list, #teacher-list, #enrollment-list {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #acacac;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#course-list p, #student-list p, #teacher-list p, #enrollment-list p {
+    font-size: 16px;
+    margin: 5px 0;
+}
